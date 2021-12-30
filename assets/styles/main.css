@@ -48,18 +48,16 @@ a{
 .card{
     border:none;
 }
-.card img{
-    filter:invert(100%) grayscale(100%);
-    opacity: 0.7;
-}
+
 #techstack{
     background:#fff1;
+    padding-bottom: 20px;
 }
 .list-group-item{
     background: transparent;
 }
 .h1{
-    color:#A13333 !important;
+    color:#dc3545 !important;
     font-family: 'playfair';
 }
 #quote{
