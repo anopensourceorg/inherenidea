@@ -13,8 +13,13 @@ a{
     background-attachment: fixed;
     background-size: cover;
     min-height: 500px;
-    clip-path: polygon(0 0, 100% 0, 100% 81%, 0 99%);
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0 99%);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    padding-bottom: max(15vh,100px);
 }
 #header::before{
     content:"";
@@ -32,8 +37,6 @@ a{
 }
 
 #description{
-    position: absolute;
-    bottom:20%;
     text-align: center;
     width:100%;
 }
