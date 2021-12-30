@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+#header{
+    background: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 500px;
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 0 99%);
+    position: relative;
+}
+#header::before{
+    content:"";
+    background:#000B;
+    position: absolute;
+    top:0%;
+    left:0%;
+    bottom: 0%;
+    right:0%;
+    z-index: -1;
+}
+
+.title-names{
+    font-family: 'Dancing Script', cursive;
+}
+
+#description{
+    position: absolute;
+    bottom:20%;
+    text-align: center;
+    width:100%;
+}
+
+.accordion-header button{
+    font-weight: bold;
+}
+
+.card{
+    border:none;
+}
+.card img{
+    filter:invert(100%) grayscale(100%);
+    opacity: 0.7;
+}
+#techstack{
+    background:#fff1;
+}
+.list-group-item{
+    background: transparent;
+}
+.h1{
+    color:#A13333 !important;
+    font-family: 'playfair';
+}
+#quote{
+    background: url("../images/bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+    position: relative;
+}
+
+#quote .h1{
+    color:#fff !important;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+#quote #wrapper{
+    padding: 30px 0px;
+    background: #000A;
+}
+#footer{
+    background:#333;
+    padding:20px 10px;
+}
